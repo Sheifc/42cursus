@@ -1,4 +1,4 @@
-# ft_bzero function: 
+# ft_bzero function
 
 NAME: bzero – write zeroes to a byte string.
 LIBRARY: Standard C Library (libc, -lc)
@@ -8,7 +8,7 @@ SYNOPSIS
 
 DESCRIPTION: The bzero() function writes n zeroed bytes to the string s.  If n is zero, bzero() does nothing.
 
-# Implementation:
+# Implementation
 
 Your `ft_bzero` function implementation follows the general idea of the `bzero` function, which sets a block of memory to zero. 
 
@@ -30,7 +30,7 @@ void ft_bzero(void *s, size_t n)
 } */
 ```
 
-# Reason of using n-- and not --n: 
+# Reason of using n-- and not --n
 
 The loop runs exactly `n` times, which means it zeroes out `n` bytes.
 
@@ -47,7 +47,7 @@ while (--n)
 
 So, the second option would not be a correct replacement for the original `ft_bzero`, as it wouldn't set the last byte to zero.
 
-# Step by step: 
+# Step by step
 
 1. `#include "libft.h"`: It includes the `libft.h` header file, which is a good practice when using functions and types defined in your own library.
 
@@ -63,7 +63,7 @@ So, the second option would not be a correct replacement for the original `ft_bz
 
 Overall, the `ft_bzero` function implementation aligns with the behavior of the standard `bzero` function, which sets a block of memory to zero. 
 
-## Using char: 
+# Using char
 
 The `ft_bzero` function, like `ft_memset`, operates on a block of memory, setting bytes to zero. Therefore, it's appropriate and conventional to use `char` to represent the byte value to set to zero in the `ft_bzero` function.
 
