@@ -1,4 +1,4 @@
-# Data Types in C: 
+# Data Types in C
 
 En the C programming language, there are various data formats that are used to represent different types of information. Some of the most common data formats in C include:
 
