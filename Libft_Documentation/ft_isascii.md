@@ -1,4 +1,4 @@
-# ft_isascii function:
+# ft_isascii function
 
 NAME: isascii – test for ASCII character
 LIBRARY: Standard C Library (libc, -lc)
