@@ -18,7 +18,8 @@ void	ft_lstadd_back(t_list **lst, t_list *new)
 		new->next = NULL; // This is not accepted by francinette tests
 	}
 }
-
+```
+```c
 void	ft_lstadd_back(t_list **lst, t_list *new)
 {
 	t_list	*last;
