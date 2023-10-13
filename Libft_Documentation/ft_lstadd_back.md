@@ -1,8 +1,8 @@
-# ft_lstadd_back_bonus function:
+# ft_lstadd_back_bonus function
 
 Add the node 'new' to the end of the linked list 'lst'.
 
-# Implementation:
+# Implementation
 
 ```c
 void	ft_lstadd_back(t_list **lst, t_list *new)
@@ -18,7 +18,7 @@ void	ft_lstadd_back(t_list **lst, t_list *new)
 		new->next = NULL; // This is not accepted by francinette tests
 	}
 }
-````
+
 void	ft_lstadd_back(t_list **lst, t_list *new)
 {
 	t_list	*last;
@@ -32,3 +32,4 @@ void	ft_lstadd_back(t_list **lst, t_list *new)
 		new->next = NULL; // This is not accepted by francinette tests
 	}
 }
+```
