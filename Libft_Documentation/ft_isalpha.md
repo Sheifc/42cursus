@@ -48,7 +48,7 @@ Here's a breakdown of the implementation:
 
 The `ft_isalpha` function is implemented and can be used to determine if a given character is an alphabetic character.
 
-# Why uses int instead of char: 
+# Why uses int instead of char
 
 Using `int` instead of `char` as the parameter type for functions like `ft_isalpha` is a common practice in the C standard library and in many C libraries for a couple of reasons:
 
