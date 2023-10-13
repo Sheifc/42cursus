@@ -107,4 +107,3 @@ Character: A
 
 Regarding the usage of `unsigned char *p` to assign it a `void *s`, when you need to use a `size_t` as an argument, it's because `size_t` represents non-negative values only, and it's often used to denote sizes or lengths of data structures. The `unsigned char` type represents each byte of memory, unsigned, and always measures 8 bits. Using `size_t` as an argument ensures that you're providing a valid size or length value, which is typically non-negative.
 
-If you have any specific questions or need further clarification on any part of the provided information, please feel free to ask.
