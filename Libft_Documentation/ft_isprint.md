@@ -29,3 +29,12 @@ int	main(void)
 	printf("%i", ft_isprint(127));
 	printf("%i", isprint(127));
 } */
+
+Second version:
+
+```c
+int	ft_isprint(int c)
+{
+	return (c >= 32 && c <= 126);
+}
+```
