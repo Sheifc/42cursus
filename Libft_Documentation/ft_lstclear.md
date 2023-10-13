@@ -16,6 +16,8 @@ Authorized Functions: free
 Description: Deletes and frees the given 'lst' node and all subsequent nodes connected to it, using the 'del' function and free(3).
 At the end, the pointer to the list should be NULL.
 
+# Implementation
+
 2 Versions: 
 
 ```c
