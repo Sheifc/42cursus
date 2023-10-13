@@ -4,6 +4,8 @@ Add the node 'new' to the end of the linked list 'lst'.
 
 # Implementation
 
+2 versions:
+
 ```c
 void	ft_lstadd_back(t_list **lst, t_list *new)
 {
