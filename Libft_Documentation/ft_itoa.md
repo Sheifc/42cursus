@@ -1,4 +1,4 @@
-# ft_itoa function:
+# ft_itoa function
 
 Function Name: ft_itoa
 
@@ -23,7 +23,6 @@ Description: Using malloc(3), generate a string that represents the integer valu
 
 # Implementation: 
 
-My implementation: 
 ```c
 static int	ft_length(long n)
 {
