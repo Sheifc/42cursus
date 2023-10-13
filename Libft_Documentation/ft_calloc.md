@@ -1,4 +1,4 @@
-# ft_calloc function:
+# ft_calloc function
 
 NAME: calloc, free, malloc, realloc, reallocf, valloc, aligned_alloc – memory allocation
 SYNOPSIS
