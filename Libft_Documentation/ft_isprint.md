@@ -1,4 +1,4 @@
-# ft_isprint function:
+# ft_isprint function
 
 ISPRINT(3) Library Functions                                                                           
 
