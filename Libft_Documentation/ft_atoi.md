@@ -1,4 +1,4 @@
-# ft_atoi function: 
+# ft_atoi function
 
 The `ft_atoi` function from the Libft library, converts a string representation of an integer to an integer value.
 
@@ -12,7 +12,7 @@ Using `str++` inside the `if` simply advances the `str` pointer to the next char
 
 So, in summary, the `if` is used to make decisions based on the content of the first character of the `str` string, and `str++` is used to move to the next character after processing the sign, if necessary. It's not a loop itself but rather conditional flow control.
 
-# Implementation: 
+# Implementation
 
 1. **Whitespace Handling**:
    - The code handles whitespace characters (ASCII values 9-13 and space) using a `while` loop at the beginning.
