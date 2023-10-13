@@ -1,8 +1,8 @@
-# ft_lstadd_front function:
+# ft_lstadd_front function
 
 The `ft_lstadd_front` function is designed to add a new node to the front of a singly-linked list. 
 
-# Implementation:
+# Implementation
 
 ```c
 void ft_lstadd_front(t_list **lst, t_list *new)
