@@ -8,7 +8,7 @@ SYNOPSIS
 
 DESCRIPTION: The isalpha() function tests for any character for which isupper(3) or islower(3) is true.
 
-# Implementation: 
+# Implementation
 
 The `ft_isalpha` function implementation follows the standard behavior expected from the `isalpha` function in C. Here's an explanation of the implementation:
 
