@@ -9,6 +9,14 @@ This repository is meant to include the projects performed at 42 and some docume
 |-------------------------------------------------------|---------------------------------------------------|
 |	[Libft](https://github.com/Sheifc/42cursus/tree/main/libft) |  First project: My first library | 
 <br>
+### Progress:
+<table style="width:100%">
+  <tr>
+    <th>42 Programming School</th>
+    <th><a href="https://github.com/oakoudad/badge42"><img src="https://badge.mediaplus.ma/greenbinary/sheferna?1337Badge=off&UM6P=off" alt="sheferna's 42 stats" /></a></th>
+  </tr>
+</table>
+<br>
 
 ![IMG_8866](https://github.com/Sheifc/42cursus/assets/115345487/c40e7140-5e86-41e6-a8f1-76955ec8ccc0)
 
