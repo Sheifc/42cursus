@@ -1,6 +1,6 @@
 # 42cursus
 
-As a student at 42 I'm developing the common course of programming projects which scheme can be visualised at the below image.
+As a student at 42 I'm developing the common course of programming projects which scheme can be visualised at the image below.
 
 This repository is meant to include the projects performed at 42 and some documentation consulted to developed them. 
 <br>
@@ -9,7 +9,8 @@ This repository is meant to include the projects performed at 42 and some docume
 |-------------------------------------------------------|---------------------------------------------------|
 |	[Libft](https://github.com/Sheifc/42cursus/tree/main/libft) |  First project: My first library | 
 <br>
-### Progress:
+### ✅ Progress:
+
 <table style="width:100%">
   <tr>
     <th>42 Programming School</th>
