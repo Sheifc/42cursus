@@ -11,7 +11,7 @@ This repository is meant to include the projects performed at 42 and some docume
 <br>
 
 <p align="left">
-  <img width="100" src="https://github.com/Sheifc/42cursus/assets/115345487/394836b5-1c89-4e60-957d-74a1c78630a3" />
+  <img width="200" src="https://github.com/Sheifc/42cursus/assets/115345487/394836b5-1c89-4e60-957d-74a1c78630a3" />
 </p>
 
 
