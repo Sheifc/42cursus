@@ -6,4 +6,4 @@ Every project must be defended to 3 different peer evaluators which will ask all
 
 This is only one aspect of how we build soft skills at 42 school, which are not built at university or any other schools. This is the advantage of 42 methodology as well as reinforcement a team spirit, you become a coder and evaluator, as we are almost 900 student at the school we develop not only a clean code skill, but also you evaluate that many students and many ways of performing the same project that you can improve your style and performance very quick.
 
-The profile of 42 students have in common curiosity, active person, proactive and willing to learn always a new skill which is essential in the informatics field. 
+The profile of 42 students have in common curiosity, active personality, proactive and willing to learn always a new skill which is essential in the informatics field. 
