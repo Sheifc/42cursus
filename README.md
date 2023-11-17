@@ -7,3 +7,7 @@ Every project must be defended to 3 different peer evaluators which will ask all
 This is only one aspect of how we build soft skills at 42 school, which are not built at university or any other schools. This is the advantage of 42 methodology as well as reinforcement a team spirit, you become a coder and evaluator, as we are almost 900 student at the school we develop not only a clean code skill, but also you evaluate that many students and many ways of performing the same project that you can improve your style and performance very quick.
 
 The profile of 42 students have in common curiosity, active personality, proactive and willing to learn always a new skill which is essential in the informatics field. 
+
+These are the levels at 42, it starts at level zero which consist in one project and finish at level 6, every certain level there is an examn about all content from previous levels which must be passed with 100/100 in order to be able to continue progressing: 
+
+![IMG_9232](https://github.com/Sheifc/42cursus/assets/115345487/c7ccc30f-9665-44dc-b113-29797d1b13a7)
