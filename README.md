@@ -1,4 +1,4 @@
-Here it can be found the projects performed at 42 programming school as part of the common core. 
+<center>Here it can be found the projects performed at 42 programming school as part of the common core. 
 
 Every project has the code with is written following the norma of the school, which includes the rule of no comments in the code, for those who are interested in a deeper understanding of the project, a README will be included in every project folder with my notes written which were done to prepare the defence of the projects at the school. 
 
@@ -8,6 +8,6 @@ This is only one aspect of how we build soft skills at 42 school, which are not 
 
 The profile of 42 students have in common curiosity, active personality, proactive and willing to learn always a new skill which is essential in the informatics field. 
 
-These are the levels at 42, it starts at level zero which consist in one project and finish at level 6, every certain level has an examn about all content from previous levels which must be passed with 100/100 in order to be able to continue progressing: 
+These are the levels at 42, it starts at level zero which consist in one project and finish at level 6, every certain level has an examn about all content from previous levels which must be passed with 100/100 in order to be able to continue progressing: </center>
 
 ![IMG_9232](https://github.com/Sheifc/42cursus/assets/115345487/c7ccc30f-9665-44dc-b113-29797d1b13a7)
