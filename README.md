@@ -2,6 +2,6 @@ Here it can be found the projects performed at 42 programming school as part of 
 
 Every project has the code with is written following the norma of the school, which includes the rule of no comments in the code, for those who are interested in a deeper understanding of the project, a README will be included in every project folder with my notes written which were done to prepare the defence of the projects at the school. 
 
-Every project must be defended to 3 different peer evaluators which will ask all they need to check you understand perfectly the project, plus the final evaluation of a software. 
+Every project must be defended to 3 different peer evaluators which will ask all they need to check you understand perfectly the project, plus the final evaluation of a software. The avarage of the 4 total evaluations with be the dinal result, even if your project is evaluated as perfect by the software, if any peer evaluator gave you lower qualification, this will reduce the final result as it is equal important how good is the project and how good are you defend it. 
 
 For any questions, please contact me. 
