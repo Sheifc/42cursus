@@ -1,4 +1,4 @@
-<div align="center">
+<div align="justify">
 Welcome to my 42 cursus repository! 
 
 Here, it can be found the projects performed at 42 programming campus as part of the common core. Later on, there are specialisations.
