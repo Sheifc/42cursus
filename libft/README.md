@@ -205,68 +205,68 @@ typedef struct s_list
 In your Makefile, add a `make bonus` rule that incorporates the bonus functions into your libft.a. The bonus part will only be assessed if the mandatory part is perfect. Perfect? Yes: all requirements of the mandatory part must be correctly completed. Otherwise, your bonuses will not be assessed at all.
 Implement the following functions for easy use of your lists.
 
-Function name: `ft_lstnew`
-Prototype: `t_list *ft_lstnew(void *content);`
-Parameters: `content`: the content with which to create the node.
-Return value: The new node.
-Files to deliver: -
-Authorised functions: `malloc`
+Function name: `ft_lstnew`  
+Prototype: `t_list *ft_lstnew(void *content);`  
+Parameters: `content`: the content with which to create the node.  
+Return value: The new node.  
+Files to deliver: -  
+Authorised functions: `malloc`  
 Description: Creates a new node using `malloc(3)`. The 'content' member variable is initialised with the content of the 'content' parameter. The 'next' variable, with `NULL`.
 
-Function name: `ft_lstadd_front`
-Prototype: `void ft_lstadd_front(t_list **lst, t_list *new);`
-Files to deliver: -
-Parameters: `lst`: the address of a pointer to the first node of a list. `new`: a pointer to the node to add at the beginning of the list.
-Return value: None.
-Authorised functions: None.
-Description: Adds the 'new' node to the beginning of the 'lst' list.
+Function name: `ft_lstadd_front`  
+Prototype: `void ft_lstadd_front(t_list **lst, t_list *new);`  
+Files to deliver: -  
+Parameters: `lst`: the address of a pointer to the first node of a list. `new`: a pointer to the node to add at the beginning of the list.  
+Return value: None.  
+Authorised functions: None.  
+Description: Adds the 'new' node to the beginning of the 'lst' list.  
 
-Function name: `ft_lstsize`
-Prototype: `int ft_lstsize(t_list *lst);`
-Files to deliver: -
-Parameters: `lst`: the beginning of the list.
-Return value: The length of the list.
-Authorised functions: None.
-Description: Counts the number of nodes in a list.
+Function name: `ft_lstsize`  
+Prototype: `int ft_lstsize(t_list *lst);`  
+Files to deliver: -  
+Parameters: `lst`: the beginning of the list.  
+Return value: The length of the list.  
+Authorised functions: None.  
+Description: Counts the number of nodes in a list.  
 
-Function Name: `ft_lstlast`
-Prototype: `t_list *ft_lstlast(t_list *lst);`
-Files to deliver: -
-Parameters: `lst`: the start of the list.
-Return Value: Last node of the list.
-Authorised Functions: None
-Description: Returns the last node of the list.
+Function Name: `ft_lstlast`  
+Prototype: `t_list *ft_lstlast(t_list *lst);`  
+Files to deliver: -  
+Parameters: `lst`: the start of the list.  
+Return Value: Last node of the list.  
+Authorised Functions: None  
+Description: Returns the last node of the list.  
 
-Function Name: `ft_lstadd_back`
-Prototype: `void ft_lstadd_back(t_list **lst, t_list *new);`
-Files to deliver: -
-Parameters: `lst`: the pointer to the first node of a list. `new`: the pointer to a node to be added to the list.
-Return Value: None
-Authorised Functions: None
-Description: Adds the 'new' node at the end of the 'lst' list.
+Function Name: `ft_lstadd_back`  
+Prototype: `void ft_lstadd_back(t_list **lst, t_list *new);`  
+Files to deliver: -  
+Parameters: `lst`: the pointer to the first node of a list. `new`: the pointer to a node to be added to the list.  
+Return Value: None  
+Authorised Functions: None  
+Description: Adds the 'new' node at the end of the 'lst' list.  
 
-Function Name: `ft_lstdelone`
-Prototype: `void ft_lstdelone(t_list *lst, void (*del)(void *));`
-Files to deliver: -
-Parameters: `lst`: the node to be freed. `del`: a pointer to the function used to free the content of the node.
-Return Value: None
-Authorised Functions: `free`
-Description: Takes a 'lst' node as a parameter and frees the memory of the content using the 'del' function provided as a parameter, as well as freeing the node. The memory of 'next' should not be freed.
+Function Name: `ft_lstdelone`  
+Prototype: `void ft_lstdelone(t_list *lst, void (*del)(void *));`  
+Files to deliver: -  
+Parameters: `lst`: the node to be freed. `del`: a pointer to the function used to free the content of the node.  
+Return Value: None  
+Authorised Functions: `free`  
+Description: Takes a 'lst' node as a parameter and frees the memory of the content using the 'del' function provided as a parameter, as well as freeing the node. The memory of 'next' should not be freed.  
 
-Function Name: `ft_lstclear`
-Prototype: `void ft_lstclear(t_list **lst, void (*del)(void *));`
-Files to deliver: -
-Parameters: `lst`: the address of a pointer to a node. `del`: a pointer to a function used to delete the content of a node.
-Return Value: None
-Authorised Functions: `free`
-Description: Deletes and frees the given 'lst' node and all subsequent nodes, using the 'del' function and `free(3)`. In the end, the pointer to the list must be `NULL`.
+Function Name: `ft_lstclear`  
+Prototype: `void ft_lstclear(t_list **lst, void (*del)(void *));`  
+Files to deliver: -  
+Parameters: `lst`: the address of a pointer to a node. `del`: a pointer to a function used to delete the content of a node.  
+Return Value: None  
+Authorised Functions: `free`  
+Description: Deletes and frees the given 'lst' node and all subsequent nodes, using the 'del' function and `free(3)`. In the end, the pointer to the list must be `NULL`.  
 
-Function Name: `ft_lstiter`
-Prototype: `void ft_lstiter(t_list *lst, void (*f)(void *));`
-Files to deliver: -
-Parameters: `lst`: a pointer to the first node. `f`: a pointer to the function to be used on each node.
-Return Value: None
-Authorised Functions: None
-Description: Iterates over the 'lst' list and applies the function 'f' to the content of each node.
+Function Name: `ft_lstiter`  
+Prototype: `void ft_lstiter(t_list *lst, void (*f)(void *));`  
+Files to deliver: -  
+Parameters: `lst`: a pointer to the first node. `f`: a pointer to the function to be used on each node.  
+Return Value: None  
+Authorised Functions: None  
+Description: Iterates over the 'lst' list and applies the function 'f' to the content of each node.  
 
 </div>
