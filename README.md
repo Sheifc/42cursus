@@ -2,7 +2,7 @@ Welcome to my 42 cursus repository!
 
 Here, it can be found the projects performed at 42 programming campus as part of the common core. Later on, there are specialisations.
 
-Every project has the code with is written following the norma of the campus, which includes the rule of no comments in the code, for those who are interested in a deeper understanding of the project, a README will be included in every project folder with my notes written which were done to prepare the defence of the projects. 
+Every project has the code which is written following the norma of the campus, which includes the rule of no comments in the code, for those who are interested in a deeper understanding of the project, a README will be included in every project folder with my notes written which were done to prepare the defence of the projects. 
 
 Every project must be defended to 3 different peer evaluators which will ask you all they need and test your code to check that you understand perfectly the project, the code can handle special cases and doesn´t perform memory leaks. Finally, the final evaluation is done by a software tester. The average of the 4 total evaluations will be the final qualification of the project, even if your project is evaluated as perfect by the software tester, if any peer evaluator gave you lower qualification, this will reduce the final qualification as it is equally important how good are you defending your project. 
 
