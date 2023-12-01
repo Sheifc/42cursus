@@ -35,6 +35,7 @@ Make sure to continually enrich your libft throughout your cursus. However, when
 
 ## **Chapter III Mandatory Part**
 
+| Title | Description |
 | :----------- | :----------: |
 | Program Name | libft.a |
 | Files to Deliver | Makefile, libft.h, ft_*.c |
