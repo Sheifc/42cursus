@@ -85,9 +85,9 @@ easily if you use functions from part 1.
 | Prototype | char *ft_substr(char const *s, unsigned int start, size_t len); |
 | Files to Submit | - |
 | Parameters | s: The string from which to create the substring. start: The index of the character in 's' from which to start the substring. len: The maximum length of the substring. |
-| Return Value 1 The resulting substring. NULL if memory reservation fails. | 
+| Return Value | The resulting substring. NULL if memory reservation fails. | 
 | Authorized Functions | malloc | 
-| Description 1 Allocates (with malloc(3)) and returns a substring of the string 's'. The substring starts from the index 'start' and has a maximum length 'len'. | 
+| Description | Allocates (with malloc(3)) and returns a substring of the string 's'. The substring starts from the index 'start' and has a maximum length 'len'. | 
 
 | Title | Description |
 | :----------- | :---------- |
