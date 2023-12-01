@@ -22,16 +22,16 @@ Make sure to continually enrich your libft throughout your cursus. However, when
 
 ## **Chapter II General Instructions**
 
-• Your project must be written in C.
-• Your project should adhere to the Norm. If you have additional files or functions, they are included in the Norm verification, and you'll score 0 if there's any standard error in any of them.
-• Your functions should not terminate unexpectedly (segfault, bus error, double free, etc.) nor exhibit undefined behavior. If this happens, your project will be deemed non-functional, and you will receive a 0 during evaluation.
-• All memory allocated on the heap must be properly freed when necessary. Memory leaks are not permitted.
-• If required by the assignment, you must deliver a Makefile that compiles your source files to the required output with flags -Wall, -Werror, and -Wextra, and of course, your Makefile must not relink.
-• Your Makefile must contain at least the rules $(NAME), all, clean, fclean, and re.
-• To submit the bonuses of your project, you must include a bonus rule in your Makefile, where you will add all headers, libraries, or functions that are forbidden in the main part of the project. The mandatory part and the bonuses are evaluated separately.
-• If your project allows the use of libft, you must copy its source and associated Makefiles into a libft directory with its corresponding Makefile. The Makefile of your project must first compile the library using its Makefile and then compile the project.
-• We recommend creating test programs for your project, although this work will not be submitted or evaluated. It will give you the opportunity to verify that your program works correctly during your evaluation and that of your peers. And yes, you are allowed to use these tests during your evaluation or that of your peers.
-• Submit your work in your assigned Git repository. Only the work from your Git repository will be evaluated. If Deepthought evaluates your work, it will do so after your peers. If an error is found during Deepthought's evaluation, the evaluation will have ended. 
+• Your project must be written in C.  
+• Your project should adhere to the Norm. If you have additional files or functions, they are included in the Norm verification, and you'll score 0 if there's any standard error in any of them.  
+• Your functions should not terminate unexpectedly (segfault, bus error, double free, etc.) nor exhibit undefined behavior. If this happens, your project will be deemed non-functional, and you will receive a 0 during evaluation.  
+• All memory allocated on the heap must be properly freed when necessary. Memory leaks are not permitted.  
+• If required by the assignment, you must deliver a Makefile that compiles your source files to the required output with flags -Wall, -Werror, and -Wextra, and of course, your Makefile must not relink.  
+• Your Makefile must contain at least the rules $(NAME), all, clean, fclean, and re.  
+• To submit the bonuses of your project, you must include a bonus rule in your Makefile, where you will add all headers, libraries, or functions that are forbidden in the main part of the project. The mandatory part and the bonuses are evaluated separately.  
+• If your project allows the use of libft, you must copy its source and associated Makefiles into a libft directory with its corresponding Makefile. The Makefile of your project must first compile the library using its Makefile and then compile the project.  
+• We recommend creating test programs for your project, although this work will not be submitted or evaluated. It will give you the opportunity to verify that your program works correctly during your evaluation and that of your peers. And yes, you are allowed to use these tests during your evaluation or that of your peers.  
+• Submit your work in your assigned Git repository. Only the work from your Git repository will be evaluated. If Deepthought evaluates your work, it will do so after your peers. If an error is found during Deepthought's evaluation, the evaluation will have ended.  
 
 ## **Chapter III Mandatory Part**
 
