@@ -38,7 +38,7 @@ Make sure to continually enrich your libft throughout your cursus. However, when
 | Title | Description |
 | :----------- | :----------: |
 | Program Name | libft.a |
-| Files to Deliver | Makefile, libft.h, ft_*.c |
+| Files to Submit | Makefile, libft.h, ft_*.c |
 | Makefile | NAME, all, clean, fclean, re | 
 | Authorized Functions | Details below |
 | Use of libft allowed | you don't have it yet | 
@@ -79,172 +79,112 @@ To implement these other two functions, you will have to use malloc():
 In this second part, you must develop a set of functions that either are not from the libc library or are but in a different form. Some of the following functions can be done more
 easily if you use functions from part 1. 
 
-Function Name
-ft_substr
-Prototype
-char *ft_substr(char const *s, unsigned int start,
-size_t len);
-Files to Deliver
+| Title | Description |
+| :----------- | :----------: |
+| Function Name | ft_substr |
+| Prototype | char *ft_substr(char const *s, unsigned int start, size_t len); |
+| Files to Submit | - |
+| Parameters | s: The string from which to create the substring. start: The index of the character in 's' from which to start the substring. len: The maximum length of the substring. |
+| Return Value 1 The resulting substring. NULL if memory reservation fails. | 
+| Authorized Functions | malloc | 
+| Description 1 Allocates (with malloc(3)) and returns a substring of the string 's'. The substring starts from the index 'start' and has a maximum length 'len'. | 
 
-Parameters
-s: The string from which to create the substring.
-start: The index of the character in 's' from which
-to start the substring.
-len: The maximum length of the substring.
-Return Value
-The resulting substring.
-NULL if memory reservation fails.
-Authorized Functions
-malloc
-Description
-Allocates (with malloc(3)) and returns a substring of
-the string 's'.
-The substring starts from the index 'start' and
-has a maximum length 'len'. Function Name
-ft_strjoin
-Prototype char *ft_strjoin(char const *s1, char const *s2);
-Files to Deliver
+| Title | Description |
+| :----------- | :----------: |
+| Function Name | ft_strjoin | 
+| Prototype | char *ft_strjoin(char const *s1, char const *s2); |
+| Files to Submit | - |
+| Parameters | s1: The first string. s2: The string to add to 's1'. | 
+| Return Value | The new string. NULL if memory reservation fails. | 
+| Authorized Functions | malloc |
+| Description | Allocates (with malloc(3)) and returns a new string, formed by the concatenation of 's1' and's2'. |
 
-Parameters
-s1: The first string.
-s2: The string to add to 's1'.
-Return Value
-The new string.
-NULL if memory reservation fails.
-Authorized Functions
-malloc
-Description
-Allocates (with malloc(3)) and returns a new
-string, formed by the concatenation of 's1' and
-'s2'. Function Name
-ft_strtrim
-Prototype
-char *ft_strtrim(char const *s1, char const *set);
-Files to Deliver
+| Title | Description |
+| :----------- | :----------: |
+| Function Name | ft_strtrim | 
+| Prototype | char *ft_strtrim(char const *s1, char const *set); |
+| Files to Submit | - |
+| Parameters | s1: The string to be trimmed. set: The characters to remove from the string. | 
+| Return Value | The trimmed string. NULL if memory reservation fails. |
+| Authorized Functions | malloc |
+| Description | Removes all characters in the string 'set' from the beginning and end of 's1', until a character not belonging to 'set' is found. The resulting string is returned with a malloc(3) reservation. | 
 
-Parameters
-s1: The string to be trimmed.
-set: The characters to remove from the string.
-Return Value
-The trimmed string.
-NULL if memory reservation fails.
-Authorized Functions
-malloc
-Description
-Removes all characters in the string 'set'
-from the beginning and end of 's1', until
-a character not belonging to 'set' is found. The
-resulting string is returned with a malloc(3) reservation. Function Name
-ft_split
-Prototype
-char **ft_split(char const *s, char c);
-Files to Deliver
+| Title | Description |
+| :----------- | :----------: |
+| Function Name | ft_split |
+| Prototype | char **ft_split(char const *s, char c); |
+| Files to Submit | - |
+| Parameters | s: The string to split. c: The delimiter character. |
+| Return Value | The array of new strings resulting from the separation. NULL if memory reservation fails. |
+| Authorized Functions | malloc, free |
+| Description | Allocates (using malloc(3)) an array of strings resulting from splitting the string 's' into substrings using the character 'c' as a delimiter. The array must end with a NULL pointer. | 
 
-Parameters
-s: The string to split.
-c: The delimiter character.
-Return Value
-The array of new strings resulting from the
-separation.
-NULL if memory reservation fails.
-Authorized Functions
-malloc, free
-Description
-Allocates (using malloc(3)) an array of strings
-resulting from splitting the string 's' into substrings
-using the character 'c' as a delimiter. The
-array must end with a NULL pointer. Function Name
-ft_itoa
-Prototype
-Parameters
-char *ft_itoa(int n);
-n: the integer to convert.
-Files to Deliver
+| Title | Description |
+| :----------- | :----------: |
+| Function Name | ft_itoa |
+| Prototype | char *ft_itoa(int n);
+| Files to Submit | - | 
+| Parameters | n: the integer to convert. | 
+| Return Value | The string representing the number. NULL if memory reservation fails. |
+| Authorized Functions | malloc |
+| Description | Using malloc(3), generates a string that represents the integer value received as an argument. Negative numbers must be managed. |
 
-Return Value
-The string representing the number.
-NULL if memory reservation fails.
-Authorized Functions
-malloc
-Description
-Using malloc(3), generates a string that
-represents the integer value received as an argument.
-Negative numbers must be managed. Function Name
-ft_strmapi
-Prototype
-char *ft_strmapi(char const *s, char (*f)(unsigned
-int, char));
-Files to Deliver
+| Title | Description |
+| :----------- | :----------: |
+| Function Name | ft_strmapi |
+| Prototype | char *ft_strmapi(char const *s, char (*f)(unsigned int, char)); |
+| Files to Submit | - |
+| Parameters | s: The string to iterate over. f: The function to apply to each character. |
+| Return Value | The string created after correctly using 'f' on each character. NULL if memory reservation fails. |
+| Authorized Functions | malloc |
+| Description | Applies the function 'f' to each character of the string 's', giving as parameters the index of each character within 's' and the character itself. Generates a new string with the result of successive use of 'f'. |
 
-Parameters
-s: The string to iterate over.
-f: The function to apply to each character.
-Return Value
-The string created after correctly using 'f' on
-each character.
-NULL if memory reservation fails.
-Authorized Functions
-malloc
-Description
-Applies the function 'f' to each character of the string 's', giving as parameters the index of each
-character within 's' and the character itself. Generates
-a new string with the result of successive use
-of 'f'. Function Name
-ft_striteri
-Prototype
-void ft_striteri(char *s, void (f)(unsigned int,
-char));
-Files to Deliver
+| Title | Description |
+| :----------- | :----------: |
+| Function Name | ft_striteri |
+| Prototype | void ft_striteri(char *s, void (f)(unsigned int, char)); |
+| Files to Submit | - |
+| Parameters | s: The string to iterate over. f: The function to apply to each character. |
+| Return Value | Nothing |
+| Authorized Functions | None |
+| Description | Applies the function 'f' to each character of the string 's', giving as parameters the index of each character within 's' and the address of the character, which may be modified if necessary. |
 
-Parameters
-s: The string to iterate over.
-f: The function to apply to each character.
-Return Value Nothing
-Authorized Functions
-None
-Description
-Applies the function 'f' to each character of the string 's', giving as parameters the index of each
-character within 's' and the address of the character, which may be modified if necessary. Function Name
-ft_putchar_fd
-Prototype
-void ft_putchar_fd(char c, int fd);
-Files to Deliver
+| Title | Description |
+| :----------- | :----------: |
+| Function Name | ft_putchar_fd |
+| Prototype | void ft_putchar_fd(char c, int fd); |
+| Files to Submit | - |
+| Parameters | c: The character to send. fd: The file descriptor to write on. |
+| Return Value | Nothing |
+| Authorized Functions | write |
+| Description | Sends the character 'c' to the specified file descriptor. | 
 
-Parameters
-c: The character to send.
-fd: The file descriptor to write on.
-Return Value Nothing
-Authorized Functions
-write
-Description
-Sends the character 'c' to the specified file descriptor. Function Name
-ft_putstr_fd
-Prototype
-void ft_putstr_fd(char *s, int fd);
-Files to Deliver
+| Title | Description |
+| :----------- | :----------: |
+| Function Name | ft_putstr_fd |
+| Prototype | void ft_putstr_fd(char *s, int fd); |
+| Files to Submit | - |
+| Parameters | s: The string to send. fd: The file descriptor to write on. |
+| Return Value | Nothing |
+| Authorized Functions | write |
+| Description | Sends the string 's' to the specified file descriptor. |
 
-Parameters
-s: The string to send.
-fd: The file descriptor to write on.
-Return Value Nothing
-Authorized Functions
-write
-Description
-Sends the string 's' to the specified file descriptor. 
+| Title | Description |
+| :----------- | :----------: |
+| Function Name | ft_putendl_fd |
+| Prototype | void ft_putendl_fd(char *s, int fd); |
+| Files to Submit | - |
+| Parameters | s: The string to send. fd: The file descriptor to write on. | 
+| Return Value | None. |
+| Authorized Functions | write |
+| Description | Sends the string 's' to the given file descriptor, followed by a newline. 
 
-Function Name
-ft_putendl_fd
-Prototype void ft_putendl_fd(char *s, int fd); Files to Submit
-
-Parameters s: The string to send.
-fd: The file descriptor to write on. Return Value None. Authorized Functions
-write
-Description
-Sends the string 's' to the given file descriptor,
-followed by a newline. Function Name
-ft_putnbr_fd Prototype void ft_putnbr_fd(int n, int fd); Files to Submit
-Parameters
-n: The number to send.
-fd: The file descriptor to write on. Return Value None. Authorized Functions
-write. Description Sends the number 'n' to the given file descriptor.
+| Title | Description |
+| :----------- | :----------: |
+| Function Name | ft_putnbr_fd |
+| Prototype | void ft_putnbr_fd(int n, int fd); |
+| Files to Submit | - |
+| Parameters | n: The number to send. fd: The file descriptor to write on. Return Value None. |
+| Authorized Functions | write. |
+| Description | Sends the number 'n' to the given file descriptor. |
 </div>
