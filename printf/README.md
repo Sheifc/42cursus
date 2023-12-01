@@ -24,7 +24,7 @@ int	ft_putstr_pf(char *str)
 {
 	int	i; //Declares an integer i to keep track of the number of characters written.
 
-	i = 0; //Initializes i to zero.
+	i = 0; //Initialises i to zero.
 	if (str == NULL)
 		return (write(1, "(null)", 6));
 	while (*str)
