@@ -1,4 +1,6 @@
-Welcome to the 42 cursus repository. Here it can be found the projects performed at 42 programming campus as part of the common core. 
+Welcome to my 42 cursus repository! 
+
+Here, it can be found the projects performed at 42 programming campus as part of the common core. Later on, there are specialisations.
 
 Every project has the code with is written following the norma of the campus, which includes the rule of no comments in the code, for those who are interested in a deeper understanding of the project, a README will be included in every project folder with my notes written which were done to prepare the defence of the projects. 
 
