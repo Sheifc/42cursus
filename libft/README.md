@@ -32,9 +32,9 @@ Make sure to continually enrich your libft throughout your cursus. However, when
 • If your project allows the use of libft, you must copy its source and associated Makefiles into a libft directory with its corresponding Makefile. The Makefile of your project must first compile the library using its Makefile and then compile the project.
 • We recommend creating test programs for your project, although this work will not be submitted or evaluated. It will give you the opportunity to verify that your program works correctly during your evaluation and that of your peers. And yes, you are allowed to use these tests during your evaluation or that of your peers.
 • Submit your work in your assigned Git repository. Only the work from your Git repository will be evaluated. If Deepthought evaluates your work, it will do so after your peers. If an error is found during Deepthought's evaluation, the evaluation will have ended. 
-
+</div>
 ## **Chapter III Mandatory Part**
-
+<div align="left">
 | Title | Description |
 | :----------- | :----------: |
 | Program Name | libft.a |
@@ -43,7 +43,8 @@ Make sure to continually enrich your libft throughout your cursus. However, when
 | Authorized Functions | Details below |
 | Use of libft allowed | you don't have it yet | 
 | Description | Write your own library: a set of functions that will be a very useful tool throughout the cursus. | 
-
+</div>
+<div align="justify">
 ## **III.1. Technical Considerations**
 
 • Declaring global variables is prohibited.
@@ -78,7 +79,8 @@ To implement these other two functions, you will have to use malloc():
 
 In this second part, you must develop a set of functions that either are not from the libc library or are but in a different form. Some of the following functions can be done more
 easily if you use functions from part 1. 
-
+</div>
+<div align="left">
 | Title | Description |
 | :----------- | :----------: |
 | Function Name | ft_substr |
