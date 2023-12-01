@@ -46,12 +46,12 @@ Make sure to continually enrich your libft throughout your cursus. However, when
 
 ## **III.1. Technical Considerations**
 
-• Declaring global variables is prohibited.
-• If you need to split a complex function into several, make sure to use the word static for it. This way, the functions will stay in the appropriate file.
-• Put all your files in the root of your repository.
-• Delivering unused files is prohibited.
-• All .c files must be compiled with flags -Wall -Werror -Wextra.
-• You must use the ar command to generate the library. The use of libtool is prohibited.
+• Declaring global variables is prohibited.  
+• If you need to split a complex function into several, make sure to use the word static for it. This way, the functions will stay in the appropriate file.  
+• Put all your files in the root of your repository.  
+• Delivering unused files is prohibited.  
+• All .c files must be compiled with flags -Wall -Werror -Wextra.  
+• You must use the ar command to generate the library. The use of libtool is prohibited.  
 • Your libft.a must be created at the root of the repository. 
 
 ## **III.2. Part 1 - libc Functions**
