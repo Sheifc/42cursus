@@ -8,12 +8,12 @@ Subject translated to English:
 This project is an exercise in system administration. 
 
 ## General Index
-I. Preamble 2
-II. Introduction 3
-III. General Instructions
-IV. Mandatory Section
-V. Bonus Section
-VI. Submission and Evaluation
+I. Preamble 2  
+II. Introduction 3  
+III. General Instructions  
+IV. Mandatory Section  
+V. Bonus Section  
+VI. Submission and Evaluation  
 
 ## Chapter I | Preamble 
 You can do anything you want to do. Virtual Machine. This is your world. 
