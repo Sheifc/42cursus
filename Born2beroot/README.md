@@ -1,5 +1,3 @@
-A Student from 42 Barcelona has wriiten a great tutorial for this project, I recommend to consult his repo for details [Tutorial](https://github.com/gemartin99/Born2beroot-Tutorial). 
-
 Subject translated to English: 
 ------------------------------
 
@@ -151,4 +149,6 @@ duplicate your virtual machines or use save state.
 It is obviously PROHIBITED to submit your virtual machine in your
 Git repository. During the defence, the contents of the
 signature.txt file will be compared with the signature of your virtual machine. If the
-two are not identical, your grade will be 0. "
+two are not identical, your grade will be 0.
+
+A Student from 42 Barcelona has wriiten a great tutorial for this project, I recommend to consult his repo for details [Tutorial](https://github.com/gemartin99/Born2beroot-Tutorial). 
