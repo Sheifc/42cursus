@@ -137,8 +137,10 @@ You should only submit a signature.txt file in the root of your Git repository. 
 
 Then retrieve the signature of the ".vdi" file (or ".qcow2" for UTM users) of your virtual machine in sha1 format. You have 4 examples of commands for a rocky_serv.vdi file: 
 
-• Windows: certUtil -hashfile rocky_serv.vdi sha1 • Linux: sha1sum rocky_serv.vdi   
-• For Mac M1: shasum rocky.utm/Images/disk-0.qcow2 • MacOS: shasum rocky_serv.vdi   
+• Windows: certUtil -hashfile rocky_serv.vdi sha1   
+• Linux: sha1sum rocky_serv.vdi    
+• For Mac M1: shasum rocky.utm/Images/disk-0.qcow2   
+• MacOS: shasum rocky_serv.vdi   
 
 This is an example of the type of result you will get: 
 
