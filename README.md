@@ -14,7 +14,9 @@ This is only one aspect of how we build soft skills at 42 campus, which are not 
 
 The profile of 42 students have in common curiosity, proactivity, active personality and willingness to learn always a new skill which is essential in the informatics field. 
 
-The levels at 42 start at level zero which consist in one project and finish at level 6, every certain level has an examn which covers the content from previous levels, this must be passed with 100/100 in order to be able to continue progressing:
+The levels at 42 start at level zero which consist in one project and finish at level 6, every certain level contains an exam which covers the content from previous levels, this must be passed with 100/100 points in order to be able to continue progressing:
 </div>
+
+<br>
 
 <img width="1104" alt="42_projects" src="https://github.com/Sheifc/42cursus/assets/115345487/368023ae-8bf9-4030-a21e-fcd428c0a864">
