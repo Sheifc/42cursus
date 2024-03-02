@@ -14,4 +14,4 @@ The profile of 42 students have in common curiosity, proactivity, active persona
 The levels at 42 start at level zero which consist in one project and finish at level 6, every certain level has an examn which covers the content from previous levels, this must be passed with 100/100 in order to be able to continue progressing:
 </div>
 
-![42](https://github.com/Sheifc/42cursus/assets/115345487/33c00e01-acb5-486c-b228-36a703bbc50f)
+<img width="1104" alt="42_projects" src="https://github.com/Sheifc/42cursus/assets/115345487/368023ae-8bf9-4030-a21e-fcd428c0a864">
