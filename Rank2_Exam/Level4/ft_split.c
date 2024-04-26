@@ -57,6 +57,6 @@ int main() {
         free(words[i]); // Libera la memoria de cada palabra
 		i++;
     }
-    free(words); // Libera el arreglo de punteros
+    free(words); // Libera el array de punteros
     return 0;
 }
