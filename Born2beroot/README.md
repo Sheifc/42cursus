@@ -5,7 +5,7 @@ Subject translated to English:
 
 # Born2beroot
 
-This project is an exercise in system administration. 
+This project is an exercise about system administration. 
 
 ## General Index
 I. Preamble 2  
