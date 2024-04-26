@@ -6,7 +6,7 @@ Welcome to my 42 cursus repository!
 Here, it can be found the projects performed at 42 programming campus as part of the common core. Later on, there are specialisations.
 <br>
 
-Every project has the code written following the norma of the campus, which includes the rule of no comments in the code or not declaration and initialisation of variables on the same line of code, for loops, case and others. 
+Every project has the code written following the norma of the campus, which includes the rule of no comments in the code or not declaration and initialisation of variables on the same line of code, for loops, case and others. 42 rules about code:
 [es.norm.pdf](https://github.com/Sheifc/42cursus/files/15135375/es.norm.pdf)
 
 For those who are interested in a deeper understanding of the project, specially if you are learning, I have include a README file and a documentation file in every project folder which contains the notes I wrote to prepare the defence of the project. 
