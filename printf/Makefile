@@ -10,12 +10,12 @@
 #                                                                              #
 # **************************************************************************** #
 
-NAME 	= libftprintf.a
-CC 		= gcc
-CFLAGS 	= -Wall -Werror -Wextra
-RM		= rm -rf
-AR 		= ar rcs
-SRCS 	= ft_printf.c ft_printf_utils.c
+NAME 	  = libftprintf.a
+CC 	  = gcc
+CFLAGS 	  = -Wall -Werror -Wextra
+RM	  = rm -rf
+AR 	  = ar rcs
+SRCS 	  = ft_printf.c ft_printf_utils.c
 
 SRCS_OBJS = $(SRCS:.c=.o)
 
