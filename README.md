@@ -22,4 +22,5 @@ The levels at 42 start at level zero which consist in one project and finish at 
 
 <br>
 
-<img width="1104" alt="42_projects" src="https://github.com/Sheifc/42cursus/assets/115345487/368023ae-8bf9-4030-a21e-fcd428c0a864">
+![image](https://github.com/Sheifc/42cursus/assets/115345487/a6a0c9dd-6a81-4dea-9ee8-904d8188215e)
+
