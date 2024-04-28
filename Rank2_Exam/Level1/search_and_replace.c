@@ -43,12 +43,12 @@ int main(int argc, char **argv)
 		j++;
 	while (argv[3][k])
 		k++;
-	if (argc == 4 && j == 1 && k == 1) // (argc == 4 && !argv[2][1] & !argv[3][1])
+	if (argc == 4 && j == 1 && k == 1)
 	{
 		while (argv[1][i])
 		{
-			if (argv[1][i] == *argv[2]) // (argv[1][i]==argv[2][0])
-				argv[1][i] = *argv[3]; // (argv[1][i]==argv[3][0])
+			if (argv[1][i] == *argv[2])
+				argv[1][i] = *argv[3];
 			write(1, &argv[1][i], 1);
 			i++;
 		}
@@ -56,7 +56,7 @@ int main(int argc, char **argv)
 	write(1, "\n", 1);
 }
 
-// Otro modo: pasa el grademe
+// Otro modo: pasa el grademe también
 
 #include <unistd.h>
 
