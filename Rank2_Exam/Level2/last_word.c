@@ -61,24 +61,7 @@ int main(int argc, char **argv)
 	write(1, "\n", 1);
 }
 
-/* void	last_word(char *str)
-{
-	int	start = 0;
-	int i = 0;
-
-	while (str[i])
-	{
-		if (str[i] == ' ' && str[i + 1] >= 33 && str[i + 1] <= 126)
-			start = i + 1; // al estar en un bucle, el valor de estar va a ir cambiando hasta llegar a la ultima palabra
-		i++;
-	}
-	while (str[start] >= 33 && str[start] <= 126)
-	{
-		write(1, &str[start], 1);
-		start++;
-	}
-}
-
+/*
 int		main(int argc, char **argv)
 {
 	if (argc == 2)
