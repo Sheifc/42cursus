@@ -41,7 +41,7 @@ void	inter(char *s1, char *s2)
 		if (tab[(int)s1[i]] == 1) // si los elementos de s1 son 1 significa q es igual a s2
 		{
 			write(1, &s1[i], 1);
-			tab[(int)s1[i]] = 2; // para q no lo vuelva a imprimir, le asignamos el valor 1
+			tab[(int)s1[i]] = 2; // para q no lo vuelva a imprimir, le asignamos el valor 2
 		}
 		i++;
 	}
