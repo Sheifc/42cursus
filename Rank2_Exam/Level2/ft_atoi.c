@@ -33,7 +33,7 @@ int ft_atoi(const char *str)
 		n = n * 10 + *str - '0';
 		str++;
 	}
-	return(n * sign); // al tener mas de un signo lo q hace es q avanza y llega aki, como n se inicio como cero pues retorna cero en estos casos
+	return(n * sign);
 }
 int main()
 {
