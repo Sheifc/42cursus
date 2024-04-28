@@ -23,8 +23,6 @@ $>./add_prime_sum | cat -e
 $> 
 */
 
-// Rossi modificado:
-
 #include <unistd.h>
 
 int	ft_atoi(char *s)
