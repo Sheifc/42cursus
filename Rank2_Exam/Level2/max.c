@@ -22,7 +22,7 @@ int		max(int* tab, unsigned int len)
 	unsigned int i = 1;
 	int max;
 
-	if (len == 0) // (tab == "") no
+	if (len == 0)
 		return (0);
 	
 	max = tab[0]; // no necesitamos dereferenciar direccion de memoria por tanto no necesito un puntero a int, sino una variable de int para almacenar el valor solo
@@ -43,9 +43,3 @@ int main(void)
 
 	printf("%d", max(tab, len));
 }
-
-/* 
-Inicializa correctamente el valor máximo: Comienza con max = tab[0], lo cual es un buen punto de partida para comparar con los demás elementos del arreglo.
-
-Recorre todo el arreglo correctamente: Usa un bucle while que recorre desde el segundo elemento del arreglo (índice 1) hasta el último, comparando cada elemento con el valor máximo actual. Si encuentra un elemento mayor, actualiza el valor de max. Este enfoque garantiza que al final del bucle, max contendrá el valor máximo del arreglo.
- */
