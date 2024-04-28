@@ -41,16 +41,6 @@ $>
 
 #include <unistd.h>
 
-/* void ft_print(int n)
-{
-	char base[10] = "0123456789";
-	while (n > 9)
-	{
-		ft_print(n / 10);
-		write (1, &base[n % 10], 1);
-	}
-} */
-
 void ft_putnbr(int n)
 {
 	char c;
