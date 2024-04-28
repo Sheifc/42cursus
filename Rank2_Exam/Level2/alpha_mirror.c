@@ -27,8 +27,6 @@ $>./alpha_mirror | cat -e
 $
 $> */
 
-// la letra le restas la a para conocer la distancia a la a y a ese resultado le resta la z
-
 #include <unistd.h>
 
 int main(int argc, char **argv)
