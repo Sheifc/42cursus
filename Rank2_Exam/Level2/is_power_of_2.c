@@ -13,63 +13,10 @@ Your function must be declared as follows:
 
 int	    is_power_of_2(unsigned int n); */
 
-/* Erroneamente, he resuelto el problema comprobando si el numero es par:
-	if (n % 2 == 0)
-		return (1);
-	//if (n % 2 != 0) asi me daba error al compilar xq la funcion debe retornar int para todos los casos
-	else
-		return (0); */
-
-/* 
-Inicialmente, nbr es 1 (que es 2^0).
-1. En la primera iteración, si n no es 1, nbr se multiplica por 2. 
-Ahora nbr es 2 (que es 2^1).
-2. En la segunda iteración, si n no es 2, nbr se multiplica por 2 nuevamente. 
-Ahora nbr es 4 (que es 2^2).
-
-Este proceso se repite, con nbr tomando valores de 8 (2^3), 16 (2^4), 32 (2^5), y así sucesivamente.
-Cada vez que nbr se multiplica por 2, efectivamente estás pasando a la siguiente potencia de 2. 
-Y en cada iteración, comparas este nbr (que representa la potencia de 2 actual en la secuencia) con n. 
-Si en algún momento nbr es igual a n, eso significa que n es una potencia de 2, 
-porque coincide con una de las potencias de 2 generadas en el bucle.
-
-Si nbr se hace más grande que n sin encontrar una igualdad, sabes que n no puede ser una potencia de 2, 
-porque si lo fuera, habrías encontrado una igualdad en una de las iteraciones anteriores del bucle.
-*/
 
 #include <stdio.h>
 
-/* int	    is_power_of_2(unsigned int n)
-{
-	unsigned int nbr = 1; // 1 = 2^0
-
-	if (n == 0) // 0 no es power of 2
-		return (0);
-	while (1)
-	{
-		if (nbr == n) // si n no es 1, nbr se multiplica por 2, xq no entra en el if ni en el else, pasa a nbr *= 2
-			return (1);
-		else if (nbr > n)
-			return (0);
-		nbr *= 2; // si entra n=12, primera vuelta pasa aki y nbr*2 = 1*2=2, 
-		//segunda vuelta, nbr*2 = 2*2=4, tercera 4*2=8, cuarta 8*2=16, entonces entra en el else if y retorna 0
-	}
-} */
-
-// Otro modo:
-
-/* int	    is_power_of_2(unsigned int n)
-{
-	if (n == 0)
-		return (0);
-	while (n % 2 = 0)
-		n /= 2;
-	if (n == 1) // es la primera condición q incumplira n % 2, es el resultado de la primera div 2/2 = 1
-		return (1);
-	return (0);
-} */
-
-// Otro modo: recursividad: pasa el grademe
+// Por recursividad: pasa el grademe
 
 int is_power_of_2(unsigned int n)
 {
@@ -142,3 +89,16 @@ Por ejemplo, `5 >> 1` daría `2` porque `101` desplazado una posición a la dere
 Estas operaciones son fundamentales en la programación a bajo nivel, como en el desarrollo de sistemas, 
 drivers, o programas que requieren una manipulación eficiente de la memoria y los datos a nivel de bit.
  */
+
+// Otro modo:
+
+/* int	    is_power_of_2(unsigned int n)
+{
+	if (n == 0)
+		return (0);
+	while (n % 2 = 0)
+		n /= 2;
+	if (n == 1) // es la primera condición q incumplira n % 2, es el resultado de la primera div 2/2 = 1
+		return (1);
+	return (0);
+} */
