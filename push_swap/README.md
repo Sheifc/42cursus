@@ -1,3 +1,5 @@
+<div align="justify">
+
 # Push_swap
 
 "Push_swap" is a popular programming project that involves creating a sorting program. The objective is to sort data on a stack with a limited set of instructions, using the least number of moves possible. The data must be organised in a stack called "A," and optionally a second stack called "B" can be used to assist in the sorting process. The challenge is to sort the numbers in ascending order in stack "A" using a predetermined set of operations such as push, swap, rotate, and reverse rotate. The project is often used to teach algorithmic thinking and optimisation strategies in coding.
