@@ -20,6 +20,8 @@ Here’s a breakdown of what the project typically involves:
 
 The "pipex" project is an excellent exercise for students to understand inter-process communication, process management, and command-line interfacing in Unix systems. This project not only reinforces the concepts of system programming but also provides a deeper understanding of how shell commands and pipelines work under the hood.
 
+# Bonus
+
 For the bonus part of the "pipex" project, additional features are typically added to enhance the functionality and complexity of the basic pipeline simulation. Here are some common extensions that might be included in the bonus section:
 
 1. **Multiple Pipes**: Extending the program to handle more than two commands, thus simulating more complex pipelines like `cmd1 | cmd2 | cmd3 | ...`. This involves managing multiple pipes and processes in a loop or recursive structure.
