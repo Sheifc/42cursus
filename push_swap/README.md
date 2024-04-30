@@ -5,3 +5,5 @@
 In the bonus part of the "push_swap" project, additional features and functionalities are typically implemented to enhance the basic sorting program. In this case:
 
 Checker Program: An additional program called "checker" which reads the stack and the operations performed by the "push_swap" program. It then checks if the stack is sorted correctly after all operations are applied. This serves to validate the correctness of the sorting algorithm.
+
+The project follows the Nome of code v4 of 42 Network. 
