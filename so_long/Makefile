@@ -20,6 +20,7 @@ NAME			  = so_long
 CC			  = gcc
 #CFLAGS			  = -Wall -Werror -Wextra -Iincludes -g -I$(MLX42_DIR)/include -fsanitize=address
 #MLX_FLAGS         	  = -ldl -pthread -lm -framework Cocoa -framework OpenGL -framework IOKit
+
 #Compiling at home:
 CFLAGS 			  = -Wall -Werror -Wextra -Iincludes -g -I/usr/local/Cellar/glfw/3.4/include -I$(MLX42_DIR)/include -fsanitize=address
 MLX_FLAGS 		  = -L$(MLX42_DIR) -lmlx42 -L/usr/local/Cellar/glfw/3.4/lib -lglfw -framework Cocoa -framework OpenGL -framework IOKit
@@ -30,10 +31,10 @@ SRC_DIR			  = src/
 OBJ_DIR			  = obj/
 
 FILES_SRC		  = main.c utils.c check_argv.c read_map.c \
-					check_map_content.c save_player_position.c \
-					check_wall.c init_status.c check_game.c \
-					init_game.c key_hook.c loading.c move_player.c \
-					game_over.c reloading.c \
+			  check_map_content.c save_player_position.c \
+			  check_wall.c init_status.c check_game.c \
+			  init_game.c key_hook.c loading.c move_player.c \
+			  game_over.c reloading.c \
 
 SRC 			  = $(addprefix $(SRC_DIR),$(FILES_SRC))
 OBJ_SRC 		  = $(SRC:$(SRC_DIR)%.c=$(OBJ_DIR)%.o)
