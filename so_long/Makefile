@@ -17,12 +17,12 @@ MLX42_DIR 		  = ./MLX42
 
 NAME			  = so_long
 
-CC				  = gcc
+CC			  = gcc
 
 CFLAGS 			  = -Wall -Werror -Wextra -Iincludes -g -I/usr/local/Cellar/glfw/3.4/include -I$(MLX42_DIR)/include -fsanitize=address
-MLX_FLAGS         = -L$(MLX42_DIR) -lmlx42 -L/usr/local/Cellar/glfw/3.4/lib -lglfw -framework Cocoa -framework OpenGL -framework IOKit
+MLX_FLAGS                 = -L$(MLX42_DIR) -lmlx42 -L/usr/local/Cellar/glfw/3.4/lib -lglfw -framework Cocoa -framework OpenGL -framework IOKit
 
-RM				  = rm -rf
+RM		          = rm -rf
 
 SRC_DIR			  = src/
 OBJ_DIR			  = obj/
