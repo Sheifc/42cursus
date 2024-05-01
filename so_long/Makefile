@@ -20,7 +20,7 @@ NAME			  = so_long
 CC				  = gcc
 #CFLAGS			  = -Wall -Werror -Wextra -Iincludes -g -I$(MLX42_DIR)/include -fsanitize=address
 #MLX_FLAGS         = -ldl -pthread -lm -framework Cocoa -framework OpenGL -framework IOKit
-#Compilacion en mac de casa:
+#Compiling at home:
 CFLAGS = -Wall -Werror -Wextra -Iincludes -g -I/usr/local/Cellar/glfw/3.4/include -I$(MLX42_DIR)/include -fsanitize=address
 MLX_FLAGS = -L$(MLX42_DIR) -lmlx42 -L/usr/local/Cellar/glfw/3.4/lib -lglfw -framework Cocoa -framework OpenGL -framework IOKit
 
