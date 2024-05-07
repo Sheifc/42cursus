@@ -37,10 +37,7 @@ void	check_flood_fill(t_game *game)
 		game->player.position, &game->status);
 	if (game->status.collectible_collected == game->status.total_collectible \
 		&& game->status.exit_count == 1)
-	{
-		//ft_printf("All collectibles collected and exit is reachable.\n");
 		return ;
-	}
 	else
 		ft_error("Map invalid or incomplete.\n");
 }
