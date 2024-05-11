@@ -30,6 +30,6 @@ int	ft_putchar_pf(int c);
 int	ft_putstr_pf(char *str);
 int	ft_putptr_pf(unsigned long ptr);
 int	ft_putnbrbase_pf(long n, int base, const char *base_digits);
-int	ft_putnbrbase_ptr(unsigned long n, int base, const char *base_digits);
+int	ft_putnbrbase_ptr_pf(unsigned long n, int base, const char *base_digits);
 
 #endif
