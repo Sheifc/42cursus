@@ -52,7 +52,7 @@ int	ft_printf(char const *format, ...)
 	while (*format)
 	{
 		if (*format == '%')
-			i += print_format(*(++format), ap);
+			i += ft_print_format(*(++format), ap);
 		else
 			i += write(1, format, 1);
 		++format;
