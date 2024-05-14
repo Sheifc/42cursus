@@ -24,7 +24,6 @@ int	ft_putchar(int c)
 int	ft_putstr(char *str)
 {
 	int	i = 0;
-	int res; 
 
 	if (!str)
 		str = "(null)";
