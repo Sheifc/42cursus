@@ -12,33 +12,37 @@
 
 #include "ft_printf.h"
 
-int	ft_putchar_pf(int c)
+int	ft_putchar(int c)
 {
-	return (write(1, &c, 1));
+	int i = write(1, &c, 1);
+	if (i == -1)
+		return (-1);
+	else
+		return (i);
 }
 
-int	ft_putstr_pf(char *str)
+int	ft_putstr(char *str)
 {
-	int	i;
+	int	i = 0;
+	int res; 
 
-	i = 0;
-	if (str == NULL)
-		return (write(1, "(null)", 6));
+	if (!str)
+		str = "(null)";
 	while (*str)
-		i += write(1, str++, 1);
+		i += ft_putchar(*str++);	 
 	return (i);
 }
 
-int	ft_putptr_pf(unsigned long ptr)
+int	ft_putptr(unsigned long ptr)
 {
 	int		i;
 
 	i = 0;
-	i += ft_putstr_pf("0x");
+	i += ft_putstr("0x");
 	if (ptr == 0)
-		i += ft_putchar_pf('0');
+		i += ft_putchar('0');
 	else
-		i += ft_putnbrbase_ptr_pf(ptr, 16, "0123456789abcdef");
+		i += ft_putnbrbase_ptr(ptr, 16, "0123456789abcdef");
 	return (i);
 }
 
@@ -47,11 +51,11 @@ int	ft_putnbrbase_ptr_pf(unsigned long n, int base, const char *base_digits)
 	int	i;
 
 	if (n < (unsigned long) base)
-		return (ft_putchar_pf(base_digits[n]));
+		return (ft_putchar(base_digits[n]));
 	else
 	{
-		i = ft_putnbrbase_ptr_pf(n / base, base, base_digits);
-		return (i + ft_putnbrbase_ptr_pf(n % base, base, base_digits));
+		i = ft_putnbrbase_ptr(n / base, base, base_digits);
+		return (i + ft_putnbrbase_ptr(n % base, base, base_digits));
 	}
 }
 
@@ -61,14 +65,14 @@ int	ft_putnbrbase_pf(long n, int base, const char *base_digits)
 
 	if (n < 0)
 	{
-		write(1, "-", 1);
-		return (ft_putnbrbase_pf(-n, base, base_digits) + 1);
+		ft_putchar('-');
+		return (ft_putnbrbase(-n, base, base_digits) + 1);
 	}
 	if (n < base)
-		return (ft_putchar_pf(base_digits[n]));
+		return (ft_putchar(base_digits[n]));
 	else
 	{
-		i = ft_putnbrbase_pf(n / base, base, base_digits);
-		return (i + ft_putnbrbase_pf(n % base, base, base_digits));
+		i = ft_putnbrbase(n / base, base, base_digits);
+		return (i + ft_putnbrbase(n % base, base, base_digits));
 	}
 }
