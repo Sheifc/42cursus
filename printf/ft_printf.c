@@ -18,25 +18,25 @@ int	ft_print_format(char format, va_list ap)
 
 	i = 0;
 	if (format == 'c')
-		i += ft_putchar_pf(va_arg(ap, int));
+		i += ft_putchar(va_arg(ap, int));
 	else if (format == 's')
-		i += ft_putstr_pf(va_arg(ap, char *));
+		i += ft_putstr(va_arg(ap, char *));
 	else if (format == 'p')
-		i += ft_putptr_pf(va_arg(ap, unsigned long));
+		i += ft_putptr(va_arg(ap, unsigned long));
 	else if (format == 'd' || format == 'i')
-		i += ft_putnbrbase_pf((long)va_arg(ap, int), 10, \
+		i += ft_putnbrbase((long)va_arg(ap, int), 10, \
 		"0123456789");
 	else if (format == 'u')
-		i += ft_putnbrbase_pf((long)va_arg(ap, unsigned int), 10, \
+		i += ft_putnbrbase((long)va_arg(ap, unsigned int), 10, \
 		"0123456789");
 	else if (format == 'x')
-		i += ft_putnbrbase_pf((long)va_arg(ap, unsigned int), 16, \
+		i += ft_putnbrbase((long)va_arg(ap, unsigned int), 16, \
 		"0123456789abcdef");
 	else if (format == 'X')
-		i += ft_putnbrbase_pf((long)va_arg(ap, unsigned int), 16, \
+		i += ft_putnbrbase((long)va_arg(ap, unsigned int), 16, \
 		"0123456789ABCDEF");
 	else
-		i += write(1, &format, 1);
+		i += ft_putchar(format);
 	return (i);
 }
 
@@ -46,15 +46,13 @@ int	ft_printf(char const *format, ...)
 	int		i;
 
 	va_start(ap, format);
-	if (write(1, "", 0) == -1)
-		return (-1);
 	i = 0;
 	while (*format)
 	{
 		if (*format == '%')
 			i += ft_print_format(*(++format), ap);
 		else
-			i += write(1, format, 1);
+			i += ft_putchar(format);
 		++format;
 	}
 	va_end(ap);
