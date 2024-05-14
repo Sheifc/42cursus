@@ -18,12 +18,6 @@
 # include <stdio.h>
 # include <stdarg.h>
 
-/**
- * @brief Prints what enters as a param.
- * @param *format The pointer.
- * @param ... 
- * @returns An int.
-*/
 int	ft_print_format(char format, va_list ap);
 int	ft_printf(char const *format, ...);
 int	ft_putchar_pf(int c);
