@@ -46,7 +46,7 @@ int	ft_putptr(unsigned long ptr)
 	return (i);
 }
 
-int	ft_putnbrbase_ptr_pf(unsigned long n, int base, const char *base_digits)
+int	ft_putnbrbase_ptr(unsigned long n, int base, const char *base_digits)
 {
 	int	i;
 
@@ -59,7 +59,7 @@ int	ft_putnbrbase_ptr_pf(unsigned long n, int base, const char *base_digits)
 	}
 }
 
-int	ft_putnbrbase_pf(long n, int base, const char *base_digits)
+int	ft_putnbrbase(long n, int base, const char *base_digits)
 {
 	int	i;
 
