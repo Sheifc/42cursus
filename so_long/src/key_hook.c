@@ -15,7 +15,6 @@
 void	init_key_hook(mlx_key_data_t keydata, void *game)
 {
 	t_game	*aux;
-	//mlx_image_t *temp = NULL;
 
 	aux = game;
 	if (keydata.key == MLX_KEY_UP && keydata.action == MLX_PRESS)
@@ -27,11 +26,5 @@ void	init_key_hook(mlx_key_data_t keydata, void *game)
 	if (keydata.key == MLX_KEY_LEFT && keydata.action == MLX_PRESS)
 		ft_move(aux, LEFT, aux->player.position.y, aux->player.position.x - 1);
 	if (keydata.key == MLX_KEY_ESCAPE && keydata.action == MLX_PRESS)
-		exit(EXIT_SUCCESS);	
-	// if (temp != NULL)
-/* 		mlx_delete_image(aux->mlx, temp);
-	temp = mlx_put_string(aux->mlx, ft_itoa(aux->player.move_count), 10, 10);
-	ft_printf("x:%d, y:%d\n", aux->player.position.x, aux->player.position.y);
-	free(temp); */
-	//ft_printf("%d\n",aux->player.move_count);
+		exit(EXIT_SUCCESS);
 }
