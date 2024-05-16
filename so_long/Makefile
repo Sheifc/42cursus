@@ -18,13 +18,10 @@ MLX42_DIR 		  = ./MLX42
 NAME			  = so_long
 
 CC				  = gcc
-#Compilacion en 42:
-#CFLAGS			  = -Wall -Werror -Wextra -Iincludes -g -I$(MLX42_DIR)/include -fsanitize=address
-#MLX_FLAGS = -L$(MLX42_DIR) -lmlx42 -lglfw -L/Users/sheferna/.brew/opt/glfw/lib/ -framework Cocoa -framework OpenGL -framework IOKit
 
-#Compilacion en mac de casa:
-CFLAGS = -Wall -Werror -Wextra -Iincludes -g -I/usr/local/Cellar/glfw/3.4/include -I$(MLX42_DIR)/include 
-MLX_FLAGS = -L$(MLX42_DIR) -lmlx42 -L/usr/local/Cellar/glfw/3.4/lib -lglfw -framework Cocoa -framework OpenGL -framework IOKit
+#Compilation at 42 for MacOS: make sure you add your glfw route
+CFLAGS			  = -Wall -Werror -Wextra -Iincludes -g -I$(MLX42_DIR)/include -fsanitize=address
+MLX_FLAGS = -L$(MLX42_DIR) -lmlx42 -lglfw -L/Users/sheferna/.brew/opt/glfw/lib/ -framework Cocoa -framework OpenGL -framework IOKit
 
 RM				  = rm -rf
 
