@@ -43,11 +43,8 @@ static void	update_player_position(t_game *game, int new_x, int new_y)
 		game->status.collectible_collected++;
 		game->map.grid[new_y][new_x] = '0';
 	}
-	/* if (cell != 'E')
-		game->map.grid[game->player.position.y][game->player.position.x] = '0'; */
 	game->player.position.x = new_x;
 	game->player.position.y = new_y;
-	//game->map.grid[new_y][new_x] = 'P';
 	game->player_img->instances[0].x = new_x * IMG;
 	game->player_img->instances[0].y = new_y * IMG;
 	game->player.move_count++;
