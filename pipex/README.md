@@ -2,8 +2,9 @@
 
 # Pipex
 
-<img src="[pipex](https://github.com/user-attachments/assets/3f0d87f5-94ed-48ca-92fd-2492f2f2e529)" alt="Pipex" width="300">
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/16803966-0b5b-4239-b5ea-b3faab66cb9b" alt="pipex" style="width:300px;">
+</p>
 
 The "pipex" project is a programming assignment that mimics the behavior of the Unix pipeline mechanism using C programming. The main objective of the project is to recreate a simplified version of the shell command pipeline `cmd1 | cmd2` using the Unix processes and file descriptors.
 
