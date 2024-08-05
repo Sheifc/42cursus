@@ -2,10 +2,6 @@
 
 # Pipex
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/16803966-0b5b-4239-b5ea-b3faab66cb9b" alt="pipex" style="width:300px;">
-</p>
-
 The "pipex" project is a programming assignment that mimics the behavior of the Unix pipeline mechanism using C programming. The main objective of the project is to recreate a simplified version of the shell command pipeline `cmd1 | cmd2` using the Unix processes and file descriptors.
 
 Here’s a breakdown of what the project typically involves:
@@ -41,3 +37,8 @@ For the bonus part of the "pipex" project, additional features are typically add
 6. **Command Search**: Implementing a path resolution feature where the program searches for the executable in the directories specified by the `PATH` environment variable, similar to how a shell resolves command locations.
 
 These enhancements significantly increase the complexity and learning outcomes of the project, providing a deeper dive into Unix system programming and shell functionalities.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/16803966-0b5b-4239-b5ea-b3faab66cb9b" alt="pipex" style="width:400px;">
+</p>
+
