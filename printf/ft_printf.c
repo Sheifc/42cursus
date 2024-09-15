@@ -47,6 +47,8 @@ int	ft_printf(char const *format, ...)
 
 	va_start(ap, format);
 	i = 0;
+	if (write(1, "", 0) == -1)
+		return (-1);
 	while (*format)
 	{
 		if (*format == '%')
