@@ -32,19 +32,6 @@ int	ft_putstr(char *str)
 	return (i);
 }
 
-int	ft_putptr(unsigned long ptr)
-{
-	int		i;
-
-	i = 0;
-	i += ft_putstr("0x");
-	if (ptr == 0)
-		i += ft_putchar('0');
-	else
-		i += ft_putnbrbase_ptr(ptr, 16, "0123456789abcdef");
-	return (i);
-}
-
 int	ft_putnbrbase_ptr(unsigned long n, int base, const char *base_digits)
 {
 	int	i;
@@ -56,6 +43,19 @@ int	ft_putnbrbase_ptr(unsigned long n, int base, const char *base_digits)
 		i = ft_putnbrbase_ptr(n / base, base, base_digits);
 		return (i + ft_putnbrbase_ptr(n % base, base, base_digits));
 	}
+}
+
+int	ft_putptr(unsigned long ptr)
+{
+	int		i;
+
+	i = 0;
+	i += ft_putstr("0x");
+	if (ptr == 0)
+		i += ft_putchar('0');
+	else
+		i += ft_putnbrbase_ptr(ptr, 16, "0123456789abcdef");
+	return (i);
 }
 
 int	ft_putnbrbase(long n, int base, const char *base_digits)
