@@ -21,6 +21,9 @@ The levels at 42 start at level zero which consist in one project and finish at 
 </div>
 
 <br>
-![2024-11-16-180734_1119x922_scrot](https://github.com/user-attachments/assets/1087c555-2088-44e2-a468-586274efdf0f)
+
+![2024-11-16-180734_1119x922_scrot](https://github.com/user-attachments/assets/556d70ac-3995-4305-ab08-4fc0611ddab6)
+
+
 
 
