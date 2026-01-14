@@ -4,3 +4,6 @@
 [submodule "minishell"]
 	path = minishell
 	url = https://github.com/Sheifc/minishell.git
+[submodule "Cpp"]
+	path = Cpp
+	url = https://github.com/Sheifc/Cpp.git
