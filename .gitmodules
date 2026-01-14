@@ -10,3 +10,6 @@
 [submodule "IRC"]
 	path = IRC
 	url = https://github.com/Sheifc/IRC.git
+[submodule "Inception5.0"]
+	path = Inception5.0
+	url = https://github.com/Sheifc/Inception5.0.git
