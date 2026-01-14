@@ -7,3 +7,6 @@
 [submodule "Cpp"]
 	path = Cpp
 	url = https://github.com/Sheifc/Cpp.git
+[submodule "IRC"]
+	path = IRC
+	url = https://github.com/Sheifc/IRC.git
